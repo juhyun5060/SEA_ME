@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".LoadingActivity">
 
+    <TextView
+        android:id="@+id/txtReborn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="해양생물로 다시 태어나는 중..."
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtReborn"
+        app:layout_constraintVertical_bias="0.13999999"
+        app:srcCompat="@drawable/loading" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
